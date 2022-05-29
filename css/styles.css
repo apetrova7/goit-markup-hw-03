@@ -125,9 +125,9 @@ body {
 }
 
 .header {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    border: 1px solid #ECECEC;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header .container {
@@ -249,7 +249,6 @@ body {
 }
 
 .feature-text {
-    text-align: justify;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -278,7 +277,6 @@ body {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -287,7 +285,11 @@ body {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 30px;
+}
+
+.team-details {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .portfolio-menu {
@@ -326,14 +328,17 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin: 20px 24px 5px 24px;
+    margin-bottom: 5px;
 }
 
 .portfolio-project {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    margin: 0 24px 20px 24px;
+}
+
+.portfolio-details {
+    padding: 20px 24px;
 }
 
 
